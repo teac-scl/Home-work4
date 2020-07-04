@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-image: url("https://images8.alphacoders.com/659/thumb-350-659444.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 20vh;
+}
+.main {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.colcenter {
+  width: calc(100% - 400px);
+  padding: 15px;
+  margin: 15px;
+  border: black solid 1px;
+  height: 70vh;
+}
+.colleft,
+.colright {
+  width: 200px;
+  padding: 15px;
+  margin: 15px;
+  border: black solid 1px;
+  height: 70vh;
+}
+.colleft {
+  background-color: rgb(231, 106, 167);
+}
+.colright {
+  background-color: orange;
+}
+footer {
+  width: 100%;
+  height: 10vh;
+  background-color: paleturquoise;
+}

@@ -1,0 +1,48 @@
+body {
+  margin: 0 15px;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  grid-area: header;
+  background-image: url("https://images8.alphacoders.com/659/thumb-350-659444.jpg");
+  background-size: cover;
+  place-self: stretch;
+}
+.container {
+  display: grid;
+  grid-template-columns: 170px auto 170px;
+  grid-template-rows: 20vh calc(100vh - 30vh - 30px) 10vh;
+  grid-template-areas:
+    "header header header"
+    "colleft colcenter colright"
+    "footer footer footer";
+  column-gap: 30px;
+  row-gap: 15px;
+}
+.colleft,
+.colright {
+  padding: 15px;
+  border: black solid 1px;
+}
+.colleft {
+  grid-area: colleft;
+  background-color: rgb(231, 106, 167);
+}
+
+.colright {
+  grid-area: colright;
+  background-color: orange;
+}
+.colcenter {
+  grid-area: colcenter;
+
+  padding: 15px;
+
+  border: black solid 1px;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: paleturquoise;
+}
