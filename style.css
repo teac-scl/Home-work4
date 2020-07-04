@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+#all {
+  width: 80%;
+  height: 130vh;
+  border: black solid 2px;
+  overflow: hidden;
+}
+
+#d5 {
+  background-color: red;
+  margin: 15px;
+  float: left;
+  height: 40vh;
+  width: calc(100% - 30px);
+}
+#d123 {
+  background-color: white;
+  width: 75%;
+  height: calc(80vh + 60px);
+  float: left;
+}
+#d1 {
+  background-color: red;
+  width: 73%;
+  height: 40vh;
+  margin: 15px;
+  float: left;
+}
+#d2 {
+  background-color: red;
+  width: calc(100% - 73% - 60px);
+  margin: 15px;
+  float: right;
+  height: 40vh;
+}
+#d3 {
+  background-color: red;
+  width: calc(100% - 30px);
+  margin: 15px;
+  height: 40vh;
+  float: left;
+}
+
+#d4 {
+  background-color: red;
+  width: calc(100% - 75% - 45px);
+  margin: 15px;
+  margin-left: 0;
+  height: calc(80vh + 30px);
+  float: right;
+}
